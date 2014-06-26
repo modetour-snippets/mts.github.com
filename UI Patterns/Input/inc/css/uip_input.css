@@ -1,0 +1,16 @@
+
+@media screen {
+	.UIP_Input { display:inline-block; *display:inline; margin:0 20px 0 0; height:20px; font:12px/21px Dotum; color:#333; overflow:hidden; }
+	.UIP_Input label { cursor:pointer; }
+	.UIP_Input input[type="radio"],
+	.UIP_Input input[type="checkbox"] { position:fixed; top:-100px; left:-100px; width:0; height:0; font-size:0; line-height:0; overflow:hidden; }
+	.UIP_Input.radio label i { float:left; display:inline-block; *display:inline; width:20px; height:20px; background:url("http://img.modetour.co.kr/modeetc/mUX/bg_modetour_input.png") no-repeat 0 -3px; overflow:hidden; }
+	.UIP_Input.radio.active label i { background-position:-20px -3px; }
+	.UIP_Input.checkbox label i { float:left; display:inline-block; *display:inline; width:20px; height:20px; background:url("http://img.modetour.co.kr/modeetc/mUX/bg_modetour_input.png") no-repeat 0 -23px; overflow:hidden; }
+	.UIP_Input.checkbox.active label i { background-position:-20px -23px; };
+}
+@media print {
+	.UIP_Input { display:inline-block; *display:inline; margin:0 20px 0 0; height:20px; font:12px/25px Dotum; color:#333; }
+	.UIP_Input input[type="radio"],
+	.UIP_Input input[type="checkbox"] { margin:-3px 3px 0 0; padding:0; vertical-align:middle; *margin:-4px 0 0; *vertical-align:top; }
+}
